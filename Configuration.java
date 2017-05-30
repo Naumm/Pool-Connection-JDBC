@@ -26,9 +26,9 @@ public class Configuration {
     }
 
     private void init() {
-        DB_USER_NAME = "slav";
-        DB_PASSWORD = "111";
-        DB_URL = "jdbc:mysql://176.114.4.120:3306/zam?autoReconnect=true";
+        DB_USER_NAME = "root";
+        DB_PASSWORD = "root";
+        DB_URL = "jdbc:mysql://localhost/db?autoReconnect=true";
         DB_DRIVER = "com.mysql.jdbc.Driver";
         DB_MAX_CONNECTIONS = 5;
     }
